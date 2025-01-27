@@ -209,7 +209,7 @@ if __name__ == "__main__":
     for i in range(200000):
         t = TicTacToe(p1, p2)
         t.play_game()
-    print(p1.q_table)
+    # print(p1.q_table)
     print("Training has completed. Starting game...")
     p2.epsilon = 0  # set exploration to 0 after training, to NOT CHOOSE RANDOMLY
 
